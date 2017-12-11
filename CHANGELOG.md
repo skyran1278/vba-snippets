@@ -5,3 +5,13 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 - Initial release
+
+## [1.0.0] - 2017-12-12
+### Added
+- Dim
+- If Else
+- Loops
+- Sub
+- Function
+- SelectCase
+- MsgBox

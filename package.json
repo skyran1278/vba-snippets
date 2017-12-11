@@ -2,9 +2,16 @@
     "name": "vba",
     "displayName": "VBA Snippets",
     "description": "snippets of VBA",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "publisher": "skyran",
     "icon": "images/logo.png",
+    "galleryBanner": {
+        "theme": "light"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/skyran1278/vba.git"
+    },
     "engines": {
         "vscode": "^1.18.0"
     },

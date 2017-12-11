@@ -1,1 +1,197 @@
-{}
+{
+  // DATA TYPES ===================================================
+  /*
+    Boolean
+    Integer
+    Long
+    Single
+    Double
+    Currency
+    Date
+    String
+    Object
+    Variant
+    */
+  "Boolean": {
+    "prefix": "DimBoolean",
+    "body": [
+      "Dim ${1:var} As Boolean"
+    ],
+    "description": "Boolean declaration"
+  },
+  "Integer": {
+    "prefix": "DimInteger",
+    "body": [
+      "Dim ${1:var} As Integer"
+    ],
+    "description": "Integer declaration"
+  },
+  "Long": {
+    "prefix": "DimLong",
+    "body": [
+      "Dim ${1:var} As Long"
+    ],
+    "description": "Long declaration"
+  },
+  "Single": {
+    "prefix": "DimSingle",
+    "body": [
+      "Dim ${1:var} As Single"
+    ],
+    "description": "Single declaration"
+  },
+  "Double": {
+    "prefix": "DimDouble",
+    "body": [
+      "Dim ${1:var} As Double"
+    ],
+    "description": "Double declaration"
+  },
+  "Currency": {
+    "prefix": "DimCurrency",
+    "body": [
+      "Dim ${1:var} As Currency"
+    ],
+    "description": "Currency declaration"
+  },
+  "Date": {
+    "prefix": "DimdDate",
+    "body": [
+      "Dim ${1:var} As Date"
+    ],
+    "description": "Date declaration"
+  },
+  "String": {
+    "prefix": "DimString",
+    "body": [
+      "Dim ${1:var} As String"
+    ],
+    "description": "String declaration"
+  },
+  "Object": {
+    "prefix": "DimObject",
+    "body": [
+      "Dim ${1:var} As Object"
+    ],
+    "description": "Object declaration"
+  },
+  "Variant": {
+    "prefix": "DimVariant",
+    "body": [
+      "Dim ${1:var} As Variant"
+    ],
+    "description": "Variant declaration"
+  },
+  // If Else ===================================================
+  "If": {
+    "prefix": "If",
+    "body": [
+      "If ${1:expression} Then",
+      "\t$2",
+      "End If"
+    ],
+    "description": "If code block"
+  },
+  "If Else": {
+    "prefix": "IfElse",
+    "body": [
+      "If ${1:first} Then",
+      "\t$2",
+      "ElseIf ${3:expression} Then",
+      "\t",
+      "Else",
+      "\t",
+      "End If"
+    ],
+    "description": "If ElseIf Else code block"
+  },
+  // Loops ===================================================
+  "For Loop": {
+    "prefix": "for",
+    "body": [
+      "For ${1:index} = ${3:lower} To ${4:upper}",
+      "\t$0",
+      "Next ${1:index}"
+    ],
+    "description": "For Next Loop"
+  },
+  "ForEach": {
+    "prefix": "ForEach",
+    "body": [
+      "For Each ${1:variable} In ${2:collection}",
+      "\t$0",
+      "Next ${1:variable}"
+    ],
+    "description": "For Each"
+  },
+  "DoLoopWhile": {
+    "prefix": "DoLoopWhile",
+    "body": [
+      "Do",
+      "\t$0",
+      "Loop While ${1:condition}"
+    ],
+    "description": "Do Loop While code block"
+  },
+  "DoWhile": {
+    "prefix": "DoWhile",
+    "body": [
+      "Do While ${1:condition}",
+      "\t$0",
+      "Loop"
+    ],
+    "description": "Do While Loop code block"
+  },
+  // Sub Function ===================================================
+  "Sub": {
+    "prefix": "Sub",
+    "body": [
+      "Sub ${1:subName}(${2:parameterList})",
+      "'",
+      "'",
+      "'",
+      "' @param",
+      "' @returns",
+      "",
+      "\t$0",
+      "",
+      "End Sub"
+    ],
+    "description": "Sub code block"
+  },
+  "Function": {
+    "prefix": "Function",
+    "body": [
+      "Function ${1:functionName}(${2:parameterList}) As ${3:ReturnType}",
+      "'",
+      "'",
+      "'",
+      "' @param",
+      "' @returns",
+      "",
+      "\t$0",
+      "",
+      "End Function"
+    ],
+    "description": "Function code block"
+  },
+  "SelectCase": {
+    "prefix": "SelectCase",
+    "body": [
+      "Select Case ${1:test}",
+      "\tCase ${2:lists}",
+      "\t\t${3:statements}",
+      "\tCase Else",
+      "\t\t$0",
+      "End Select"
+    ],
+    "description": "Select Case code block"
+  },
+  "MsgBox": {
+    "prefix": "MsgBox",
+    "body": [
+      "MsgBox(\"${1:message}\", ${2:buttonType}, \"${3:title}\")"
+    ],
+    "description": "Message box code block"
+  }
+}
