@@ -1,0 +1,22 @@
+{
+    "name": "vba",
+    "displayName": "VBA Snippets",
+    "description": "snippets of VBA",
+    "version": "0.0.1",
+    "publisher": "skyran",
+    "icon": "images/logo.png",
+    "engines": {
+        "vscode": "^1.18.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "vb",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}
