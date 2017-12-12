@@ -15,3 +15,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - Function
 - SelectCase
 - MsgBox
+
+## [1.2.0] - 2017-12-12
+### Added
+- Sub with comments

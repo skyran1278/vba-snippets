@@ -143,6 +143,30 @@
     "description": "Do While Loop code block"
   },
   // Sub Function ===================================================
+  "SubWithComments": {
+    "prefix": "SubWithComments",
+    "body": [
+      "Sub Main()",
+      "'",
+      "' @purpose:",
+      "' $1",
+      "'",
+      "'",
+      "' @algorithm:",
+      "' $2",
+      "'",
+      "'",
+      "' @test:",
+      "' $3",
+      "'",
+      "'",
+      "",
+      "\t$0",
+      "",
+      "End Sub"
+    ],
+    "description": "Sub code block with comments"
+  },
   "Sub": {
     "prefix": "Sub",
     "body": [
