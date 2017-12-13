@@ -86,7 +86,7 @@
   "If": {
     "prefix": "If",
     "body": [
-      "If ${1:expression} Then",
+      "If ${1:condition} Then",
       "\t$2",
       "End If"
     ],
@@ -95,9 +95,9 @@
   "If Else": {
     "prefix": "IfElse",
     "body": [
-      "If ${1:first} Then",
+      "If ${1:condition1} Then",
       "\t$2",
-      "ElseIf ${3:expression} Then",
+      "ElseIf ${3:condition2} Then",
       "\t",
       "Else",
       "\t",
@@ -203,10 +203,15 @@
     "prefix": "SelectCase",
     "body": [
       "Select Case ${1:test}",
+      "",
       "\tCase ${2:lists}",
+      "",
       "\t\t${3:statements}",
+      "",
       "\tCase Else",
-      "\t\t$0",
+      "",
+      "\t\t${0:elseStatement}",
+      "",
       "End Select"
     ],
     "description": "Select Case code block"

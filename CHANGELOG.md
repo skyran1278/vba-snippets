@@ -19,3 +19,9 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [1.2.0] - 2017-12-12
 ### Added
 - Sub with comments
+
+## [1.2.1] - 2017-12-13
+### Changed
+- If
+- If else
+- SelectCase
