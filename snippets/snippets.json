@@ -186,7 +186,7 @@
   "Function": {
     "prefix": "Function",
     "body": [
-      "Function ${1:functionName}(${2:parameterList}) As ${3:ReturnType}",
+      "Function ${1:functionName}(${2:parameterList})",
       "'",
       "'",
       "'",

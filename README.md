@@ -107,7 +107,7 @@ End Sub
 ```
 ### Function [Function code block]
 ```vb
-Function functionName(parameterList) As ReturnType
+Function functionName(parameterList)
 '
 '
 '

@@ -25,3 +25,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - If
 - If else
 - SelectCase
+
+## [1.2.2] - 2018-01-17
+### Changed
+- Function code block
