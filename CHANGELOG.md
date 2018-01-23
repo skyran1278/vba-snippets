@@ -29,3 +29,14 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [1.2.2] - 2018-01-17
 ### Changed
 - Function code block
+
+## [1.3.0] - 2018-01-23
+### Changed
+- If ElseIf Else code block
+
+### Add
+- If Else code block
+
+## [1.3.1] - 2018-01-23
+### Add
+- With code block

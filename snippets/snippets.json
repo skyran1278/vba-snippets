@@ -97,13 +97,34 @@
     "body": [
       "If ${1:condition1} Then",
       "\t$2",
-      "ElseIf ${3:condition2} Then",
-      "\t",
       "Else",
-      "\t",
+      "\t$3",
+      "End If"
+    ],
+    "description": "If Else code block"
+  },
+  "If ElseIf": {
+    "prefix": "IfElseIf",
+    "body": [
+      "If ${1:condition1} Then",
+      "\t$2",
+      "ElseIf ${3:condition2} Then",
+      "\t$4",
+      "Else",
+      "\t$4",
       "End If"
     ],
     "description": "If ElseIf Else code block"
+  },
+  // With ===================================================
+  "With": {
+    "prefix": "With",
+    "body": [
+      "With $1",
+      "\t$2",
+      "End With"
+    ],
+    "description": "With code block"
   },
   // Loops ===================================================
   "For Loop": {

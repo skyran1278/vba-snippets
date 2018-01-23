@@ -37,7 +37,15 @@ If condition Then
 
 End If
 ```
-### IfElse [If ElseIf Else code block]
+### IfElse [If Else code block]
+```vb
+If condition Then
+
+Else
+
+End If
+```
+### IfElseIf [If ElseIf Else code block]
 ```vb
 If condition1 Then
 
@@ -46,6 +54,12 @@ ElseIf condition2 Then
 Else
 
 End If
+```
+### With [With code block]
+```vb
+With
+
+End With
 ```
 ### for [For Next Loop]
 ```vb
