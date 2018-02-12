@@ -18,3 +18,7 @@ and specifies the language of the snippets.
 ## Install your extension
 * To start using your extension with Visual Studio Code copy it into the `<user home>/.vscode/extensions` folder and restart Code.
 * To share your extension with the world, read on https://code.visualstudio.com/docs about publishing an extension.
+
+## Publish
+* `vsce publish 2.0.1, major, minor, or patch`
+* read on https://code.visualstudio.com/docs/extensions/publish-extension about publishing an extension.

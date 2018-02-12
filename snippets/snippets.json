@@ -2,85 +2,60 @@
   // DATA TYPES ===================================================
   /*
     Boolean
-    Integer
     Long
-    Single
     Double
-    Currency
-    Date
     String
     Object
-    Variant
+    Array
     */
   "Boolean": {
     "prefix": "DimBoolean",
     "body": [
-      "Dim ${1:var} As Boolean"
+      "Dim bol$1 As Boolean"
     ],
     "description": "Boolean declaration"
-  },
-  "Integer": {
-    "prefix": "DimInteger",
-    "body": [
-      "Dim ${1:var} As Integer"
-    ],
-    "description": "Integer declaration"
   },
   "Long": {
     "prefix": "DimLong",
     "body": [
-      "Dim ${1:var} As Long"
+      "Dim lng$1 As Long"
     ],
     "description": "Long declaration"
-  },
-  "Single": {
-    "prefix": "DimSingle",
-    "body": [
-      "Dim ${1:var} As Single"
-    ],
-    "description": "Single declaration"
   },
   "Double": {
     "prefix": "DimDouble",
     "body": [
-      "Dim ${1:var} As Double"
+      "Dim dbl$1 As Double"
     ],
     "description": "Double declaration"
-  },
-  "Currency": {
-    "prefix": "DimCurrency",
-    "body": [
-      "Dim ${1:var} As Currency"
-    ],
-    "description": "Currency declaration"
-  },
-  "Date": {
-    "prefix": "DimdDate",
-    "body": [
-      "Dim ${1:var} As Date"
-    ],
-    "description": "Date declaration"
   },
   "String": {
     "prefix": "DimString",
     "body": [
-      "Dim ${1:var} As String"
+      "Dim str$1 As String"
     ],
     "description": "String declaration"
   },
   "Object": {
     "prefix": "DimObject",
     "body": [
-      "Dim ${1:var} As Object"
+      "Dim obj$1 As Object"
     ],
     "description": "Object declaration"
   },
-  "Variant": {
-    "prefix": "DimVariant",
+  "Array": {
+    "prefix": "DimArray",
     "body": [
-      "Dim ${1:var} As Variant"
+      "Dim arr$1()"
     ],
-    "description": "Variant declaration"
+    "description": "Array declaration"
+  },
+  "Private": {
+    "prefix": "Private",
+    "body": [
+      "Private "
+    ],
+    "description": "Private declaration"
   },
   // If Else ===================================================
   "If": {
@@ -191,7 +166,7 @@
   "Sub": {
     "prefix": "Sub",
     "body": [
-      "Sub ${1:subName}(${2:parameterList})",
+      "Sub ${1:subName}()",
       "'",
       "'",
       "'",
@@ -207,7 +182,7 @@
   "Function": {
     "prefix": "Function",
     "body": [
-      "Function ${1:functionName}(${2:parameterList})",
+      "Function ${1:functionName}()",
       "'",
       "'",
       "'",

@@ -20,16 +20,13 @@ After install this snippets add this inside your settings
 ---
 ### Dim [Dim declaration]
 ```vb
-Dim var As Boolean
-Dim var As Integer
-Dim var As Long
-Dim var As Single
-Dim var As Double
-Dim var As Currency
-Dim var As Date
-Dim var As String
-Dim var As Object
-Dim var As Variant
+Dim arr()
+Dim bol As Boolean
+Dim lng As Long
+Dim dbl As Double
+Dim str As String
+Dim obj As Object
+Private
 ```
 ### If [If code block]
 ```vb
@@ -108,7 +105,7 @@ End Sub
 ```
 ### Sub [Sub code block]
 ```vb
-Sub subName(parameterList)
+Sub subName()
 '
 '
 '
@@ -121,7 +118,7 @@ End Sub
 ```
 ### Function [Function code block]
 ```vb
-Function functionName(parameterList)
+Function functionName()
 '
 '
 '
