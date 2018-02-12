@@ -1,4 +1,4 @@
-# VBA Snippets
+# VSCode VBA Snippets
 ## Supported languages (file extensions)
 * Visual Basic (".vb", ".brs", ".vbs", ".bas")
 ---

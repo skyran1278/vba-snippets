@@ -3,7 +3,9 @@ All notable changes to the "vba" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 ## [Unreleased]
-
+## [2.0.1] - 2018-02-12
+### Changed
+- extension name
 ## [2.0.0] - 2018-02-12
 ### Added
 - Array declaration
