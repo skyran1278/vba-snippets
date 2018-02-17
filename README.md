@@ -60,9 +60,9 @@ End With
 ```
 ### for [For Next Loop]
 ```vb
-For index = lower To upper
+For i = lower To upper
 
-Next index
+Next i
 ```
 ### ForEach [For Each]
 ```vb
@@ -81,6 +81,12 @@ Loop While condition
 Do While condition
 
 Loop
+```
+### While [While Wend code block]
+```vb
+While condition
+
+Wend
 ```
 ### SubWithComments [Sub code block with comments]
 ```vb
@@ -146,4 +152,36 @@ End Select
 ### MsgBox [Message box code block]
 ```vb
 MsgBox("message", buttonType, "title")
+```
+### Cells
+```vb
+Range(Cells(), Cells())
+```
+### Range
+```vb
+Cells()
+```
+### Worksheets
+```vb
+Worksheets("")
+```
+### Short Snippets
+```vb
+UBound
+LBound
+To
+Fix
+Int
+ReDim
+Set
+Call
+Split
+Preserve
+Option Explicit
+On Error Resume Next
+ClearContents
+Clear
+Columns
+Rows
+CreateObject
 ```

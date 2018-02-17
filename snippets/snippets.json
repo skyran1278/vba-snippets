@@ -105,9 +105,9 @@
   "For Loop": {
     "prefix": "for",
     "body": [
-      "For ${1:index} = ${3:lower} To ${4:upper}",
+      "For ${1:i} = ${3:lower} To ${4:upper}",
       "\t$0",
-      "Next ${1:index}"
+      "Next ${1:i}"
     ],
     "description": "For Next Loop"
   },
@@ -137,6 +137,15 @@
       "Loop"
     ],
     "description": "Do While Loop code block"
+  },
+  "While": {
+    "prefix": "While",
+    "body": [
+      "While ${1:condition}",
+      "\t$0",
+      "Wend"
+    ],
+    "description": "While Wend code block"
   },
   // Sub Function ===================================================
   "SubWithComments": {
@@ -218,5 +227,146 @@
       "MsgBox(\"${1:message}\", ${2:buttonType}, \"${3:title}\")"
     ],
     "description": "Message box code block"
-  }
+  },
+  // short snippets
+  "UBound": {
+    "prefix": "UBound",
+    "body": [
+      "UBound"
+    ],
+    "description": "UBound"
+  },
+  "LBound": {
+    "prefix": "LBound",
+    "body": [
+      "LBound"
+    ],
+    "description": "LBound"
+  },
+  "To": {
+    "prefix": "To",
+    "body": [
+      "To"
+    ],
+    "description": "To"
+  },
+  "Cells": {
+    "prefix": "Cells",
+    "body": [
+      "Cells($1)"
+    ],
+    "description": "Cells"
+  },
+  "Range": {
+    "prefix": "Range",
+    "body": [
+      "Range(Cells($1), Cells($2))"
+    ],
+    "description": "Range"
+  },
+  "Worksheets": {
+    "prefix": "Worksheets",
+    "body": [
+      "Worksheets(\"$1\")"
+    ],
+    "description": "Worksheets"
+  },
+  "Fix": {
+    "prefix": "Fix",
+    "body": [
+      "Fix"
+    ],
+    "description": "Fix"
+  },
+  "Int": {
+    "prefix": "Int",
+    "body": [
+      "Int"
+    ],
+    "description": "Int"
+  },
+  "ReDim": {
+    "prefix": "ReDim",
+    "body": [
+      "ReDim"
+    ],
+    "description": "ReDim"
+  },
+  "Set": {
+    "prefix": "Set",
+    "body": [
+      "Set"
+    ],
+    "description": "Set"
+  },
+  "Call": {
+    "prefix": "Call",
+    "body": [
+      "Call"
+    ],
+    "description": "Call"
+  },
+  "Preserve": {
+    "prefix": "Preserve",
+    "body": [
+      "Preserve"
+    ],
+    "description": "Preserve"
+  },
+  "Split": {
+    "prefix": "Split",
+    "body": [
+      "Split"
+    ],
+    "description": "Split"
+  },
+  "Option Explicit": {
+    "prefix": "Option",
+    "body": [
+      "Option Explicit"
+    ],
+    "description": "Option Explicit"
+  },
+  "On Error Resume Next": {
+    "prefix": "OnError",
+    "body": [
+      "On Error Resume Next"
+    ],
+    "description": "On Error Resume Next"
+  },
+  "ClearContents": {
+    "prefix": "ClearContents",
+    "body": [
+      "ClearContents"
+    ],
+    "description": "ClearContents"
+  },
+  "Clear": {
+    "prefix": "Clear",
+    "body": [
+      "Clear"
+    ],
+    "description": "Clear"
+  },
+  "Columns": {
+    "prefix": "Columns",
+    "body": [
+      "Columns"
+    ],
+    "description": "Columns"
+  },
+  "Rows": {
+    "prefix": "Rows",
+    "body": [
+      "Rows"
+    ],
+    "description": "Rows"
+  },
+  "CreateObject": {
+    "prefix": "CreateObject",
+    "body": [
+      "CreateObject"
+    ],
+    "description": "CreateObject"
+  },
 }

@@ -3,6 +3,31 @@ All notable changes to the "vba" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 ## [Unreleased]
+## [2.1.0] - 2018-02-17
+### Changed
+- For Next Loop
+### Added
+- While Wend code block
+- UBound
+- LBound
+- To
+- Cells
+- Range
+- Worksheets
+- Fix
+- Int
+- ReDim
+- Set
+- Call
+- Split
+- Preserve
+- Option Explicit
+- On Error Resume Next
+- ClearContents
+- Clear
+- Columns
+- Rows
+- CreateObject
 ## [2.0.1] - 2018-02-12
 ### Changed
 - extension name
