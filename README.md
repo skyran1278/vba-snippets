@@ -136,7 +136,7 @@ End Select
 ```
 ### MsgBox [Message box code block]
 ```vb
-MsgBox("message", buttonType, "title")
+MsgBox "message", buttonType, "title"
 ```
 ### Cells
 ```vb
