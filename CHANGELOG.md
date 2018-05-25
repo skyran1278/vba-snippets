@@ -3,6 +3,15 @@ All notable changes to the "vba" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 ## [Unreleased]
+
+## [2.2.0] - 2018-05-25
+### Changed
+- Sub
+- Function
+- MsgBox
+### Removed
+- SubWithComments
+
 ## [2.1.0] - 2018-02-17
 ### Changed
 - For Next Loop
@@ -28,6 +37,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - Columns
 - Rows
 - CreateObject
+
 ## [2.0.1] - 2018-02-12
 ### Changed
 - extension name

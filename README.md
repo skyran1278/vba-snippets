@@ -88,35 +88,17 @@ While condition
 
 Wend
 ```
-### SubWithComments [Sub code block with comments]
-```vb
-Sub Main()
-'
-' @purpose:
-'
-'
-'
-' @algorithm:
-'
-'
-'
-' @test:
-'
-'
-'
-
-
-
-End Sub
-```
 ### Sub [Sub code block]
 ```vb
-Sub subName()
+Private Sub func(input)
 '
+' descrip.
 '
+' @since 1.0.0
+' @param {type} [name] descrip.
+' @return {type} [name] descrip.
+' @see dependencies
 '
-' @param
-' @returns
 
 
 
@@ -124,12 +106,15 @@ End Sub
 ```
 ### Function [Function code block]
 ```vb
-Function functionName()
+Private Function func(input)
 '
+' descrip.
 '
+' @since 1.0.0
+' @param {type} [name] descrip.
+' @return {type} [name] descrip.
+' @see dependencies
 '
-' @param
-' @returns
 
 
 

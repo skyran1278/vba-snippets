@@ -148,39 +148,18 @@
     "description": "While Wend code block"
   },
   // Sub Function ===================================================
-  "SubWithComments": {
-    "prefix": "SubWithComments",
-    "body": [
-      "Sub Main()",
-      "'",
-      "' @purpose:",
-      "' $1",
-      "'",
-      "'",
-      "' @algorithm:",
-      "' $2",
-      "'",
-      "'",
-      "' @test:",
-      "' $3",
-      "'",
-      "'",
-      "",
-      "\t$0",
-      "",
-      "End Sub"
-    ],
-    "description": "Sub code block with comments"
-  },
   "Sub": {
     "prefix": "Sub",
     "body": [
-      "Sub ${1:subName}()",
+      "Private Sub ${1:func}(${2:input})",
       "'",
+      "' ${3:descrip}.",
       "'",
+      "' @since ${4:1.0.0}",
+      "' @param {${5:type}} [${6:name}] ${7:descrip}.",
+      "' @return {${8:type}} [${9:name}] ${10:descrip}.",
+      "' @see ${11:dependencies}",
       "'",
-      "' @param",
-      "' @returns",
       "",
       "\t$0",
       "",
@@ -191,12 +170,15 @@
   "Function": {
     "prefix": "Function",
     "body": [
-      "Function ${1:functionName}()",
+      "Private Function ${1:func}(${2:input})",
       "'",
+      "' ${3:descrip}.",
       "'",
+      "' @since ${4:1.0.0}",
+      "' @param {${5:type}} [${6:name}] ${7:descrip}.",
+      "' @return {${8:type}} [${9:name}] ${10:descrip}.",
+      "' @see ${11:dependencies}",
       "'",
-      "' @param",
-      "' @returns",
       "",
       "\t$0",
       "",
@@ -224,7 +206,7 @@
   "MsgBox": {
     "prefix": "MsgBox",
     "body": [
-      "MsgBox(\"${1:message}\", ${2:buttonType}, \"${3:title}\")"
+      "MsgBox \"${1:message}\", ${2:buttonType}, \"${3:title}\""
     ],
     "description": "Message box code block"
   },
