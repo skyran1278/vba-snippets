@@ -91,6 +91,14 @@
     ],
     "description": "If ElseIf Else code block"
   },
+  "ElseIf": {
+    "prefix": "ElseIf",
+    "body": [
+      "ElseIf ${1:condition2} Then",
+      "$0"
+    ],
+    "description": "ElseIf"
+  },
   // With ===================================================
   "With": {
     "prefix": "With",
@@ -298,7 +306,7 @@
   "Split": {
     "prefix": "Split",
     "body": [
-      "Split"
+      "Split(${1:string}, \"${2:delimiter}\")"
     ],
     "description": "Split"
   },
