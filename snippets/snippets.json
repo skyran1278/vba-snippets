@@ -99,6 +99,14 @@
     ],
     "description": "ElseIf"
   },
+  "Else": {
+    "prefix": "Else",
+    "body": [
+      "Else",
+      "$0"
+    ],
+    "description": "Else"
+  },
   // With ===================================================
   "With": {
     "prefix": "With",
