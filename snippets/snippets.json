@@ -95,7 +95,7 @@
     "prefix": "ElseIf",
     "body": [
       "ElseIf ${1:condition2} Then",
-      "$0"
+      "\t$0"
     ],
     "description": "ElseIf"
   },
@@ -103,7 +103,7 @@
     "prefix": "Else",
     "body": [
       "Else",
-      "$0"
+      "\t$0"
     ],
     "description": "Else"
   },
