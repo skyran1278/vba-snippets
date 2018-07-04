@@ -186,7 +186,7 @@
   "Function": {
     "prefix": "Function",
     "body": [
-      "Private Function ${1:func}(${2:input})",
+      "Private Function ${1:func}(ByVal ${2:input})",
       "'",
       "' ${3:descrip}.",
       "'",
