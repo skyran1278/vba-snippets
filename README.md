@@ -169,4 +169,5 @@ Clear
 Columns
 Rows
 CreateObject
+IsEmpty
 ```

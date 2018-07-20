@@ -367,4 +367,11 @@
     ],
     "description": "CreateObject"
   },
+  "IsEmpty": {
+    "prefix": "IsEmpty",
+    "body": [
+      "IsEmpty($1)"
+    ],
+    "description": "IsEmpty"
+  },
 }

@@ -2,7 +2,7 @@
     "name": "vba",
     "displayName": "VSCode VBA Snippets",
     "description": "snippets of VBA",
-    "version": "2.4.2",
+    "version": "2.5.0",
     "publisher": "skyran",
     "icon": "images/logo.png",
     "galleryBanner": {
