@@ -374,4 +374,18 @@
     ],
     "description": "IsEmpty"
   },
+  "comment block": {
+    "prefix": "cm",
+    "body": [
+      "'",
+      "' descrip.",
+      "'",
+      "' @since 1.0.0",
+      "' @param {type} [name] descrip.",
+      "' @return {type} [name] descrip.",
+      "' @see dependencies",
+      "'"
+    ],
+    "description": "comment block"
+  },
 }
