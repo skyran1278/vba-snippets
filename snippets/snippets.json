@@ -388,4 +388,32 @@
     ],
     "description": "comment block"
   },
+  "End": {
+    "prefix": "End",
+    "body": [
+      "End"
+    ],
+    "description": "End"
+  },
+  "Right": {
+    "prefix": "Right",
+    "body": [
+      "Right($1)"
+    ],
+    "description": "Right"
+  },
+  "Left": {
+    "prefix": "Left",
+    "body": [
+      "Left($1)"
+    ],
+    "description": "Left"
+  },
+  "Len": {
+    "prefix": "Len",
+    "body": [
+      "Len($1)"
+    ],
+    "description": "Len"
+  },
 }
