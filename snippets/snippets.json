@@ -46,7 +46,7 @@
   "Array": {
     "prefix": "DimArray",
     "body": [
-      "Dim arr$1()"
+      "Dim arr$1"
     ],
     "description": "Array declaration"
   },
@@ -57,6 +57,13 @@
     ],
     "description": "Private declaration"
   },
+  "Public": {
+    "prefix": "Public",
+    "body": [
+      "Public "
+    ],
+    "description": "Public declaration"
+  },
   // If Else ===================================================
   "If": {
     "prefix": "If",
@@ -66,30 +73,6 @@
       "End If"
     ],
     "description": "If code block"
-  },
-  "If Else": {
-    "prefix": "IfElse",
-    "body": [
-      "If ${1:condition1} Then",
-      "\t$2",
-      "Else",
-      "\t$3",
-      "End If"
-    ],
-    "description": "If Else code block"
-  },
-  "If ElseIf": {
-    "prefix": "IfElseIf",
-    "body": [
-      "If ${1:condition1} Then",
-      "\t$2",
-      "ElseIf ${3:condition2} Then",
-      "\t$4",
-      "Else",
-      "\t$4",
-      "End If"
-    ],
-    "description": "If ElseIf Else code block"
   },
   "ElseIf": {
     "prefix": "ElseIf",
@@ -121,7 +104,7 @@
   "For Loop": {
     "prefix": "for",
     "body": [
-      "For ${1:i} = ${3:lower} To ${4:upper}",
+      "For ${1:i} = ${3:lb} To ${4:ub} Step ${5:1}",
       "\t$0",
       "Next ${1:i}"
     ],
@@ -167,13 +150,13 @@
   "Sub": {
     "prefix": "Sub",
     "body": [
-      "Private Sub ${1:func}(${2:input})",
+      "Sub ${1:func}(${2:input})",
       "'",
-      "' ${3:descrip}.",
+      "' ${3:description}.",
       "'",
       "' @since ${4:1.0.0}",
-      "' @param {${5:type}} [${6:name}] ${7:descrip}.",
-      "' @return {${8:type}} [${9:name}] ${10:descrip}.",
+      "' @param {${5:type}} [${6:name}] ${7:description}.",
+      "' @return {${8:type}} [${9:name}] ${10:description}.",
       "' @see ${11:dependencies}",
       "'",
       "",
@@ -186,13 +169,13 @@
   "Function": {
     "prefix": "Function",
     "body": [
-      "Private Function ${1:func}(ByVal ${2:input})",
+      "Function ${1:func}(ByVal ${2:input})",
       "'",
-      "' ${3:descrip}.",
+      "' ${3:description}.",
       "'",
       "' @since ${4:1.0.0}",
-      "' @param {${5:type}} [${6:name}] ${7:descrip}.",
-      "' @return {${8:type}} [${9:name}] ${10:descrip}.",
+      "' @param {${5:type}} [${6:name}] ${7:description}.",
+      "' @return {${8:type}} [${9:name}] ${10:description}.",
       "' @see ${11:dependencies}",
       "'",
       "",
@@ -230,14 +213,14 @@
   "UBound": {
     "prefix": "UBound",
     "body": [
-      "UBound"
+      "UBound($1)"
     ],
     "description": "UBound"
   },
   "LBound": {
     "prefix": "LBound",
     "body": [
-      "LBound"
+      "LBound($1)"
     ],
     "description": "LBound"
   },
@@ -258,7 +241,7 @@
   "Range": {
     "prefix": "Range",
     "body": [
-      "Range(Cells($1), Cells($2))"
+      ".Range(.Cells($1), .Cells($2))"
     ],
     "description": "Range"
   },
@@ -272,14 +255,14 @@
   "Fix": {
     "prefix": "Fix",
     "body": [
-      "Fix"
+      "Fix($1)"
     ],
     "description": "Fix"
   },
   "Int": {
     "prefix": "Int",
     "body": [
-      "Int"
+      "Int($1)"
     ],
     "description": "Int"
   },
@@ -378,11 +361,11 @@
     "prefix": "cm",
     "body": [
       "'",
-      "' descrip.",
+      "' description.",
       "'",
       "' @since 1.0.0",
-      "' @param {type} [name] descrip.",
-      "' @return {type} [name] descrip.",
+      "' @param {type} [name] description.",
+      "' @return {type} [name] description.",
       "' @see dependencies",
       "'"
     ],
@@ -415,5 +398,47 @@
       "Len($1)"
     ],
     "description": "Len"
+  },
+  "Item": {
+    "prefix": "Item",
+    "body": [
+      "Item($1)"
+    ],
+    "description": "Item"
+  },
+  "Max": {
+    "prefix": "Max",
+    "body": [
+      "Max($1)"
+    ],
+    "description": "Max"
+  },
+  "Min": {
+    "prefix": "Min",
+    "body": [
+      "Min($1)"
+    ],
+    "description": "Min"
+  },
+  "Round": {
+    "prefix": "Round",
+    "body": [
+      "Round($1)"
+    ],
+    "description": "Round"
+  },
+  "RoundUp": {
+    "prefix": "RoundUp",
+    "body": [
+      "RoundUp($1)"
+    ],
+    "description": "RoundUp"
+  },
+  "Sqr": {
+    "prefix": "Sqr",
+    "body": [
+      "Sqr($1)"
+    ],
+    "description": "Sqr"
   },
 }
